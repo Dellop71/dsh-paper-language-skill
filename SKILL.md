@@ -21,6 +21,7 @@ description: "Write, revise, or polish academic manuscript prose (English or Chi
 1. **起草前读规则**：`<PLUGIN>/rules/paper-language.md`
    - 句式骨架：`<PLUGIN>/rules/frames.md`
    - 禁用/限用表（带语料次数）：`<PLUGIN>/rules/banned.md`
+   - **木霉 / 生防方向先读**：`<PLUGIN>/rules/domain-biocontrol.md`（193 篇专题语料，11 930 句；筛选鉴定、拮抗、定殖、促生、防效、发酵优化、机理各有成型句式，同一功能下优先于通用骨架）
 2. **拿不准就查语料**（语料由 `scripts/build_corpus.py` 从用户自己的 PDF 生成）：
    ```
    node "<PLUGIN>/scripts/corpus_search.mjs" "increased yield" --lang en --fn result

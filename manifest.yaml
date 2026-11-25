@@ -1,5 +1,5 @@
 name: paper-language
-version: 1.1.0
+version: 1.2.0
 description: 论文语言契约——用 SCI/综合 语料约束中英文论文的句式、判断词强度与禁用表达，并提供语料检索与确定性 lint
 author: dsh-paper-language
 tags:
